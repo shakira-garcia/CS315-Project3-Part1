@@ -55,9 +55,10 @@ Lookahead logic: uses in.peek() (stored as int c) so it can distinguish valid by
 
 
 
-Note discovered in main.cpp:
-I found and fixed a construction issue so Scanner uses the input .txt, not the output .tokens.
-
+In main.cpp:
+- I was trying to figure out how to construct Scanner with output .tokens instead of input .txt
+-  I fixed the construction issue so Scanner uses the input .txt, not the output .tokens.
+  
 Testing & Status
 
 How I tested
@@ -101,4 +102,5 @@ bash copy_files.bash
 Compile, run, and compare one file:
 
 bash
+
 bash compile_and_test.bash call_of_the_wild.txt
